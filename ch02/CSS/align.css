@@ -1,0 +1,15 @@
+h1{color: blue;}
+.p1{
+    color: green;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "궁서";
+}
+.p2{
+    line-height: 1.5;
+    text-align: justify;
+}
+.anto{
+    color: #f00;
+    font-weight: bold;
+}
