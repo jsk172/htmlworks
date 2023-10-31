@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    background-color: #004344;
+    color: white;
+    padding: 20px;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    text-align: left;
+    color: orange;
+}   
+
+#container{
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 1px 20px;
+    background: url(/quiz/ch04/images/mic.png) no-repeat bottom right;
+    background-color: white;
+}
+body{
+    margin: 0;
+    background-color: #02233b;
+}
+ul li{
+    list-style: none;
+    margin: 30px;
+    line-height: 2px;
+}
