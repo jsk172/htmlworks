@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position : relative 속성</title>
+    <style>
+        .rec1{
+            width: 300px;
+            height: 300px;
+            background: blue;
+            margin: 100px;
+            /* rec2는 부모인 rec1이 기준이 됨 */
+            position: relative;
+        }
+        .rec2{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            /* 부모에 relative가 있으면 브라우저 기준이 아니게 됨. */
+            position: absolute;
+            /* top: 100px; */
+            /* left: 50px; */
+            right: 50px;
+            bottom: -100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 박스 모델이 부모-자식 관계 -->
+    <div class="rec1">
+        <div class="rec2"></div>
+    </div>
+</body>
+</html>
